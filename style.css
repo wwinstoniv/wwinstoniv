@@ -29,10 +29,12 @@ nav{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 5px;
+	padding-top: 20px;
+	margin: 5px;
 }
 footer{
 	text-align: center;
-	border-top: 2px solid black;
+	border-top: 1px solid black;
 	padding: 20px;
 	color: black;
 	clear: both;
@@ -128,14 +130,7 @@ canvas{
 	font-weight: bold;
 }
 .fa{
-	font-size: 3rem;
-}
-.row-big-3{
-	text-align: center;
-	display: flex;
-}
-hr{
-	margin: auto;
+	font-size: 2rem;
 }
 .portfolio-text{
 	font-style: italic;
@@ -146,17 +141,32 @@ hr{
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 1px 1px 1px 1px black;
 }
-.fa-linkedin-square, .linkedin-text{
-	text-align: center;
-	display: block;
-}
-.fa-envelope, .envelope-text{
-	text-align: center;
-	display: block;
-}
 .col-sm-4{
 	margin: auto;
 }
 .icons-row{
 	display: flex;
+}
+.spotify-text{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+.img-fluid-selfie{
+	border: 1px solid;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 10px 9px 21px 1px rgba(0,0,0,0.75);
+}
+iframe{
+	border: 2px solid;
+	box-shadow: 10px 9px 21px 1px rgba(0,0,0,0.75);
+}
+.fa-envelope, .fa-linkedin-square{
+	font-size: 1rem;
+}
+.fa-linkedin-square{
+	color: blue;
+}
+.fa-envelope{
+	color: darkslategray;
 }
